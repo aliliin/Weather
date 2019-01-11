@@ -199,7 +199,7 @@ WEATHER_API_KEY=xxxxxxxxxxxxxxxxxxxxx
     .
     public function getWeatherInfo(Weather $weather) 
     {
-        $response = $weather->getLiveWeather('深圳');
+        $response = $weather->getLiveWeather('北京');
     }
     .
     .
@@ -214,7 +214,7 @@ WEATHER_API_KEY=xxxxxxxxxxxxxxxxxxxxx
     .
     public function getWeatherInfo() 
     {
-        $response = app('weather')->getLiveWeather('深圳');
+        $response = app('weather')->getLiveWeather('北京');
     }
     .
     .
